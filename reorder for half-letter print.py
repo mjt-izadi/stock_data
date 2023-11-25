@@ -11,8 +11,8 @@ def find_new_order(n_pages):
     new_order[new_order > n_pages] = 0
     return(new_order)
 
-file_path = "/Users/Mojtaba/Desktop/"
-file_name = "cvy305.pdf"
+file_path = "/Users/"
+file_name = "file.pdf"
 file = file_path + file_name
 reordered_file = file[:-4] + "_reordered.pdf"
 
